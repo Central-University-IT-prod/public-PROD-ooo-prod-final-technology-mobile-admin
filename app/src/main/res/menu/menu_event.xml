@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/nav_event_teams_members"
+        android:icon="@drawable/ic_persons"
+        android:title="@string/title_teams_members" />
+    <item
+        android:id="@+id/nav_event_general"
+        android:icon="@drawable/ic_information"
+        android:title="@string/title_general" />
+</menu>

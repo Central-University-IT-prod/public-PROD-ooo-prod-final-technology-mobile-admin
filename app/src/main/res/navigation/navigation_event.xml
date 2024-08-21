@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation_event"
+    app:startDestination="@id/nav_event_teams_members">
+
+    <fragment
+        android:id="@+id/nav_event_general"
+        android:name="com.prodtechnology.teammatchingadmin.ui.event_info.statistics.StatisticsFragment"
+        android:label="fragment_event_general"
+        tools:layout="@layout/fragment_statistics" />
+    <navigation
+        android:id="@+id/nav_event_teams_members"
+        app:startDestination="@id/eventFragment2">
+        <fragment
+            android:id="@+id/eventFragment2"
+            android:name="com.prodtechnology.teammatchingadmin.ui.event_info.teams_members.TeamsMembersFragment"
+            android:label="fragment_event"
+            tools:layout="@layout/fragment_teams_members" >
+            <action
+                android:id="@+id/action_eventFragment2_to_teamFragment"
+                app:destination="@id/teamFragment" />
+        </fragment>
+
+        <fragment
+            android:id="@+id/teamFragment"
+            android:name="com.prodtechnology.teammatchingadmin.ui.team.TeamFragment"
+            android:label="fragment_team"
+            tools:layout="@layout/fragment_team" />
+    </navigation>
+</navigation>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Team Matching Admin</string>
+
+    <string name="hint_password">Пароль</string>
+    <string name="hint_repeat_password">Повторите пароль</string>
+    <string name="hint_old_password">Старый пароль</string>
+    <string name="hint_new_password">Новый пароль</string>
+
+    <string name="text_sign_in">Войти</string>
+    <string name="text_didnt_have_account">Еще нет аккаунта?</string>
+    <string name="text_already_have_account">Уже есть аккаунт?</string>
+    <string name="text_sign_up">Зарегистрироваться</string>
+    <string name="text_password_changed_successfully">Пароль успешно изменен</string>
+
+    <string name="title_sign_in">Вход</string>
+    <string name="title_sign_up">Регистрация</string>
+    <string name="title_events">Хакатоны</string>
+    <string name="title_account">Аккаунт</string>
+    <string name="title_change_password">Сменить пароль</string>
+
+    <string name="error_bad_email">Неправильный email</string>
+    <string name="error_short_password">Минимальная длина пароля - 6 символов</string>
+    <string name="error_password_not_match">Пароли не совпадают</string>
+    <string name="error_something">Что-то пошло не так</string>
+    <string name="error_empty_field">Это поле не должно быть пустым</string>
+    <string name="text_change">Сменить</string>
+    <string name="text_log_out">Выйти из аккаунта</string>
+    <string name="message_are_you_sure">Вы уверены?</string>
+    <string name="text_yes">Да</string>
+    <string name="text_add_event">Создать событие</string>
+    <string name="text_create">Создать</string>
+    <string name="title_new_event">Новое событие</string>
+    <string name="hint_title">Название</string>
+    <string name="hint_max_members">Макстмальноая численность команды</string>
+    <string name="text_members">Участники</string>
+    <string name="text_teams">Команды</string>
+    <string name="title_teams_members">Команды и участники</string>
+    <string name="title_general">Общее</string>
+    <string name="invite">Пригласить</string>
+    <string name="hint_google_spreadsheet">Ссылка на google speadsheet</string>
+    <string name="text_upload">Загрузить</string>
+    <string name="message_added_successfully">Загружено успешно</string>
+</resources>

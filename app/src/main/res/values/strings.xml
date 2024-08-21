@@ -1,0 +1,52 @@
+<resources>
+    <string name="app_name">Team Matching Admin</string>
+
+    <string name="hint_email" translatable="false">Email</string>
+    <string name="hint_password">Password</string>
+    <string name="hint_repeat_password">Repeat Password</string>
+    <string name="hint_old_password">Old password</string>
+    <string name="hint_new_password">New password</string>
+
+    <string name="text_sign_in">Sign In</string>
+    <string name="text_didnt_have_account">Didn\'t have an account yet?</string>
+    <string name="text_already_have_account">Already have an account?</string>
+    <string name="text_sign_up">Sign Up</string>
+    <string name="text_password_changed_successfully">Password Changed Successfully</string>
+    <string name="text_yes">Yes</string>
+    <string name="text_add_event">Add event</string>
+    <string name="text_create">Create</string>
+
+    <string name="title_sign_in">Sign In</string>
+    <string name="title_sign_up">Sign Up</string>
+    <string name="title_events">Events</string>
+    <string name="title_account">Account</string>
+    <string name="title_change_password">Change password</string>
+    <string name="title_new_event">New Event</string>
+
+    <string name="error_bad_email">Email is incorrect</string>
+    <string name="error_short_password">Password must be at least 6 symbols</string>
+    <string name="error_password_not_match">Passwords didn`t match</string>
+    <string name="error_something">Something went wrong</string>
+    <string name="error_empty_field">This field must not be empty</string>
+
+    <string name="text_change">Change</string>
+    <string name="text_log_out">Log out</string>
+
+    <string name="message_are_you_sure">Are you sure?</string>
+    <string name="hint_title">Title</string>
+    <string name="hint_max_members">Max members quantity</string>
+    <string name="text_members">Members</string>
+    <string name="text_teams">Teams</string>
+    <string name="title_teams_members">Teams and Members</string>
+    <string name="title_general">General</string>
+    <string name="invite">Invite</string>
+    <string name="mobile" translatable="false">Mobile</string>
+    <string name="backend" translatable="false">Backend</string>
+    <string name="frontend" translatable="false">Frontend</string>
+    <string name="hint_google_spreadsheet">Google Spread sheet link</string>
+    <string name="text_upload">Upload</string>
+    <string name="message_added_successfully">Uploaded successfully</string>
+    <string name="about_team">About team</string>
+    <string name="stack">Skills</string>
+
+</resources>

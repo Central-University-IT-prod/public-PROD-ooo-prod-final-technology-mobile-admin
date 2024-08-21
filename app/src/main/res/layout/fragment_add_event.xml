@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/background"
+    android:orientation="vertical"
+    tools:context=".ui.add_event.AddEventFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="@string/title_new_event"
+            android:textAlignment="center"
+            android:textColor="@color/text_main"
+            android:textSize="24sp" />
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/input_layout_new_event_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:backgroundTintMode="src_over"
+            android:clipToPadding="false"
+            android:hint="@string/hint_title"
+            android:padding="0dp"
+            android:textColorHint="@color/text_main"
+            app:boxBackgroundColor="@color/input_bg"
+            app:boxBackgroundMode="outline"
+            app:boxCornerRadiusBottomEnd="@dimen/input_layout_corner_radius"
+            app:boxCornerRadiusBottomStart="@dimen/input_layout_corner_radius"
+            app:boxCornerRadiusTopEnd="@dimen/input_layout_corner_radius"
+            app:boxCornerRadiusTopStart="@dimen/input_layout_corner_radius"
+            app:boxStrokeWidth="0dp"
+            app:boxStrokeWidthFocused="0dp">
+
+            <EditText
+                android:id="@+id/et_new_event_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="0dp"
+                android:autofillHints=""
+                android:fontFamily="@font/inter_medium"
+                android:inputType="textEmailAddress"
+                android:textColor="@color/text_main"
+                tools:ignore="LabelFor" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/input_layout_new_event_max_qty"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:backgroundTintMode="src_over"
+            android:clipToPadding="false"
+            android:hint="@string/hint_max_members"
+            android:padding="0dp"
+            android:textColorHint="@color/text_main"
+            app:boxBackgroundColor="@color/input_bg"
+            app:boxBackgroundMode="outline"
+            app:boxCornerRadiusBottomEnd="@dimen/input_layout_corner_radius"
+            app:boxCornerRadiusBottomStart="@dimen/input_layout_corner_radius"
+            app:boxCornerRadiusTopEnd="@dimen/input_layout_corner_radius"
+            app:boxCornerRadiusTopStart="@dimen/input_layout_corner_radius"
+            app:boxStrokeWidth="0dp"
+            app:boxStrokeWidthFocused="0dp">
+
+            <EditText
+                android:id="@+id/et_new_event_max_qty"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="0dp"
+                android:autofillHints=""
+                android:fontFamily="@font/inter_medium"
+                android:inputType="number"
+                android:textColor="@color/text_main"
+                tools:ignore="LabelFor" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <CalendarView
+            android:id="@+id/new_event_calendar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:focusedMonthDateColor="@color/background"
+            android:unfocusedMonthDateColor="@color/text_gray"
+            android:weekNumberColor="@color/text_gray"
+            android:weekSeparatorLineColor="@color/text_gray" />
+
+        <Button
+            android:id="@+id/btn_create_new_event"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="50dp"
+            android:layout_marginTop="20dp"
+            android:fontFamily="@font/inter_bold"
+            android:text="@string/text_create"
+            android:textColor="@color/background"
+            android:textSize="18sp" />
+    </LinearLayout>
+</ScrollView>
